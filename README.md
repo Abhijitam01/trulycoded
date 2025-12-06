@@ -18,7 +18,7 @@ This is a modern, responsive website built with a focus on **professional elegan
 
 ## 🚀 Live Demo
 
-**Production URL**: [Truly Coded Website](https://lovable.dev/projects/026f9f06-9ebb-45d6-a497-2669cefacc19)
+**Production URL**: [Truly Coded Website](https://trulycoded.agency)
 
 ## 🛠️ Development Setup
 
