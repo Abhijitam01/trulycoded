@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { SEO } from "@/components/SEO";
 
 const NotFound = () => {
   const location = useLocation();
@@ -11,6 +12,12 @@ const NotFound = () => {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background">
+      <SEO
+        title="404 - Page Not Found | TrulyCoded"
+        description="The page you're looking for doesn't exist. Return to TrulyCoded homepage to explore our UI/UX design, web development, and mobile app development services."
+        url="https://trulycoded.agency/404"
+        noindex={true}
+      />
       <div className="text-center">
         <h1 className="mb-4 text-8xl font-black text-accent">404</h1>
         <p className="mb-8 text-xl text-neutral-600 dark:text-neutral-400">

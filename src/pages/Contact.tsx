@@ -5,10 +5,55 @@ import ContactForm from "@/components/ContactForm";
 import AbstractBackground from "@/components/AbstractBackground";
 import ScrollProgress from "@/components/ScrollProgress";
 import BottomNavigation from "@/components/BottomNavigation";
+import { SEO } from "@/components/SEO";
 
 const Contact = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://trulycoded.agency/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://trulycoded.agency/contact"
+      }
+    ]
+  };
+
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact TrulyCoded",
+    "description": "Get in touch with TrulyCoded for UI/UX design, web development, and mobile app development services. Book a free consultation today.",
+    "url": "https://trulycoded.agency/contact",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "TrulyCoded",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "hi@trulycoded.agency",
+        "availableLanguage": ["English"]
+      }
+    }
+  };
+
   return (
     <div className="relative min-h-screen overflow-hidden ">
+      <SEO
+        title="Contact Us - Get in Touch | TrulyCoded"
+        description="Contact TrulyCoded for UI/UX design, web development, and mobile app development services. Book a free consultation and let's discuss your project."
+        keywords="contact trulycoded, get quote, free consultation, web development quote, UI UX design consultation"
+        url="https://trulycoded.agency/contact"
+        schema={[breadcrumbSchema, contactSchema]}
+      />
       <AbstractBackground />
 
       <div className="relative z-10 flex min-h-screen flex-col">
