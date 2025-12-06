@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://trulycoded.agency/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trulycoded.agency/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://trulycoded.agency/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trulycoded.agency/" />
+  </url>
+  
+  <!-- Services Page -->
+  <url>
+    <loc>https://trulycoded.agency/services</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trulycoded.agency/services" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://trulycoded.agency/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trulycoded.agency/services" />
+  </url>
+  
+  <!-- Our Work / Portfolio Page -->
+  <url>
+    <loc>https://trulycoded.agency/ourwork</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trulycoded.agency/ourwork" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://trulycoded.agency/ourwork" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trulycoded.agency/ourwork" />
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://trulycoded.agency/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://trulycoded.agency/contact" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://trulycoded.agency/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://trulycoded.agency/contact" />
+  </url>
+  
+</urlset>
+
