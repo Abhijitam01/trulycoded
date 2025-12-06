@@ -5,6 +5,7 @@ import { CustomToastProvider } from "@/components/ui/custom-toast";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -41,6 +42,7 @@ const App = () => (
                 </Routes>
               </BrowserRouter>
             </CustomCursor>
+            <Analytics />
           </TooltipProvider>
         </CustomToastProvider>
       </ThemeProvider>
