@@ -46,7 +46,7 @@ export const SEO = ({
     "name": "TrulyCoded",
     "alternateName": "Truly Coded Agency",
     "url": baseUrl,
-    "logo": `${baseUrl}/logo.png`,
+    "logo": `${baseUrl}/truloycoded-logo.jpeg`,
     "image": image,
     "description": description,
     "foundingDate": "2024",
@@ -155,9 +155,9 @@ export const SEO = ({
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Alternate URLs */}
-      <link rel="alternate" hreflang="en" href={url} />
-      <link rel="alternate" hreflang="en-IN" href={url} />
-      <link rel="alternate" hreflang="x-default" href={url} />
+      <link rel="alternate" hrefLang="en" href={url} />
+      <link rel="alternate" hrefLang="en-IN" href={url} />
+      <link rel="alternate" hrefLang="x-default" href={url} />
 
       {/* Preconnect for Performance */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />

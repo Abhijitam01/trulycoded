@@ -49,7 +49,7 @@ export default function Footer() {
           >
             {/* Logo Icon */}
             <div className="w-10 rounded-sm flex items-center justify-center ">
-              <img src="/logo.png" alt="logo" />
+              <img src="/truloycoded-logo.jpeg" alt="logo" />
             </div>
             {/* Logo Text */}
             <div className="text-lg font-bold tracking-tight text-foreground">
@@ -122,7 +122,7 @@ export default function Footer() {
         className="relative z-10 -mb-11"
       >
          <div className="flex items-end justify-center text-[18vw] font-extrabold dark:text-slate-400 text-slate-700 leading-none pointer-events-none select-none">
-        <span className="tracking-tighter opacity-[0.5]  ">TRYLYCODED</span>
+        <span className="tracking-tighter opacity-[0.5]  ">TRULYCODED</span>
       </div>
       </motion.div>
     </footer>
