@@ -234,7 +234,7 @@ const OurWork = () => {
             >
               <span className="relative flex h-10 w-10 overflow-hidden rounded-2xl sm:h-11 sm:w-11 ">
                 <LazyImage
-                  src="/call.png"
+                  src="/founder.jpg"
                   alt="Founder portrait"
                   className="h-full w-full object-cover"
                   placeholder="Founder"

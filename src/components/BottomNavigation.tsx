@@ -195,7 +195,7 @@ const BottomNavigation = ({ forceVisible = false, initialActiveSection = "" }: B
             >
             
                 <img
-                  src="/call.png"
+                  src="/founder.jpg"
                   alt="Team member"
                   className="w-8 rounded-xl"
                   loading="lazy"

@@ -153,7 +153,7 @@ const Hero = () => {
               className="inline-flex items-center space-x-3 rounded-2xl bg-[#4d7bff]/90 px-2 py-1 shadow-md hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <img
-                src="/call.png"
+                src="/founder.jpg"
                 alt="Person"
                 className="w-8 rounded object-cover"
               />

@@ -190,7 +190,7 @@ const GetStarted = () => {
                             }}
                           >
                             <img
-                              src="/call.png"
+                              src="/founder.jpg"
                               alt="Strategy lead portrait"
                               className="h-14 w-14 rounded-[18px] border border-white/15 object-cover shadow-[0_12px_24px_rgba(3,6,26,0.45)]"
                             />
